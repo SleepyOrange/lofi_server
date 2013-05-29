@@ -1,79 +1,13 @@
-2013-05-28 10:17:19,215 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-05-28 10:17:19,238 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-05-28 10:17:19,239 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-fOl239Sl7G
-2013-05-28 10:17:19,239 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-05-28 10:17:19,333 DEBUG virtualenvwrapper.hook_loader Running pre_activate hooks
-2013-05-28 10:17:19,337 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:pre_activate')
-2013-05-28 10:17:19,340 DEBUG virtualenvwrapper.user_scripts pre_activate
-2013-05-28 10:17:19,340 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/preactivate', 'LofiEnv']
-2013-05-28 10:17:19,342 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/LofiEnv/bin/preactivate', 'LofiEnv']
-2013-05-28 10:17:19,344 DEBUG virtualenvwrapper.hook_loader Saving sourcable pre_activate hooks to /tmp/virtualenvwrapper-pre_activate-hook-Nszx72XGcL
-2013-05-28 10:17:19,446 DEBUG virtualenvwrapper.hook_loader Running post_activate hooks
-2013-05-28 10:17:19,450 DEBUG virtualenvwrapper.hook_loader Saving sourcable post_activate hooks to /tmp/virtualenvwrapper-post_activate-hook-UvCOUGMd4q
-2013-05-28 10:17:19,451 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:post_activate_source')
-2013-05-28 10:17:19,453 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:post_activate_source')
-2013-05-28 10:17:19,453 DEBUG virtualenvwrapper.user_scripts post_activate
-2013-05-28 11:09:57,102 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-05-28 11:09:57,106 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-05-28 11:09:57,109 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-05-28 11:09:57,109 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-viEQs3yLC3
-2013-05-28 11:09:57,110 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-05-28 11:09:57,229 DEBUG virtualenvwrapper.hook_loader Running pre_activate hooks
-2013-05-28 11:09:57,236 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:pre_activate')
-2013-05-28 11:09:57,239 DEBUG virtualenvwrapper.user_scripts pre_activate
-2013-05-28 11:09:57,240 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/preactivate', 'LofiEnv']
-2013-05-28 11:09:57,242 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/LofiEnv/bin/preactivate', 'LofiEnv']
-2013-05-28 11:09:57,245 DEBUG virtualenvwrapper.hook_loader Saving sourcable pre_activate hooks to /tmp/virtualenvwrapper-pre_activate-hook-nuKEjX5AN9
-2013-05-28 11:09:57,348 DEBUG virtualenvwrapper.hook_loader Running post_activate hooks
-2013-05-28 11:09:57,352 DEBUG virtualenvwrapper.hook_loader Saving sourcable post_activate hooks to /tmp/virtualenvwrapper-post_activate-hook-Ja9vLIXssi
-2013-05-28 11:09:57,353 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:post_activate_source')
-2013-05-28 11:09:57,355 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:post_activate_source')
-2013-05-28 11:09:57,355 DEBUG virtualenvwrapper.user_scripts post_activate
-2013-05-28 14:41:11,456 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-05-28 14:41:11,461 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-05-28 14:41:11,463 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-05-28 14:41:11,464 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-WxiRH0Q4Mf
-2013-05-28 14:41:11,464 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-05-28 14:41:11,555 DEBUG virtualenvwrapper.hook_loader Running pre_activate hooks
-2013-05-28 14:41:11,560 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:pre_activate')
-2013-05-28 14:41:11,562 DEBUG virtualenvwrapper.user_scripts pre_activate
-2013-05-28 14:41:11,563 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/preactivate', 'LofiEnv']
-2013-05-28 14:41:11,565 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/LofiEnv/bin/preactivate', 'LofiEnv']
-2013-05-28 14:41:11,566 DEBUG virtualenvwrapper.hook_loader Saving sourcable pre_activate hooks to /tmp/virtualenvwrapper-pre_activate-hook-pLu6BgyfpZ
-2013-05-28 14:41:11,665 DEBUG virtualenvwrapper.hook_loader Running post_activate hooks
-2013-05-28 14:41:11,670 DEBUG virtualenvwrapper.hook_loader Saving sourcable post_activate hooks to /tmp/virtualenvwrapper-post_activate-hook-L9toNGaLtE
-2013-05-28 14:41:11,670 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:post_activate_source')
-2013-05-28 14:41:11,672 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:post_activate_source')
-2013-05-28 14:41:11,672 DEBUG virtualenvwrapper.user_scripts post_activate
-2013-05-28 14:50:28,749 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-05-28 14:50:28,754 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-05-28 14:50:28,756 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-05-28 14:50:28,757 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-9kn8kEKCWC
-2013-05-28 14:50:28,757 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-05-28 14:50:28,848 DEBUG virtualenvwrapper.hook_loader Running pre_activate hooks
-2013-05-28 14:50:28,853 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:pre_activate')
-2013-05-28 14:50:28,855 DEBUG virtualenvwrapper.user_scripts pre_activate
-2013-05-28 14:50:28,855 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/preactivate', 'LofiEnv']
-2013-05-28 14:50:28,857 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/LofiEnv/bin/preactivate', 'LofiEnv']
-2013-05-28 14:50:28,859 DEBUG virtualenvwrapper.hook_loader Saving sourcable pre_activate hooks to /tmp/virtualenvwrapper-pre_activate-hook-JaoH8shJTe
-2013-05-28 14:50:28,953 DEBUG virtualenvwrapper.hook_loader Running post_activate hooks
-2013-05-28 14:50:28,958 DEBUG virtualenvwrapper.hook_loader Saving sourcable post_activate hooks to /tmp/virtualenvwrapper-post_activate-hook-8uglwgFKdh
-2013-05-28 14:50:28,958 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:post_activate_source')
-2013-05-28 14:50:28,961 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:post_activate_source')
-2013-05-28 14:50:28,961 DEBUG virtualenvwrapper.user_scripts post_activate
-2013-05-29 10:35:05,440 DEBUG virtualenvwrapper.hook_loader Running initialize hooks
-2013-05-29 10:35:05,583 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize')
-2013-05-29 10:35:05,586 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:initialize')
-2013-05-29 10:35:05,600 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-uFIPW2lrVV
-2013-05-29 10:35:05,600 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
-2013-05-29 10:35:05,710 DEBUG virtualenvwrapper.hook_loader Running pre_activate hooks
-2013-05-29 10:35:05,714 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:pre_activate')
-2013-05-29 10:35:05,717 DEBUG virtualenvwrapper.user_scripts pre_activate
-2013-05-29 10:35:05,717 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/preactivate', 'LofiEnv']
-2013-05-29 10:35:05,720 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/LofiEnv/bin/preactivate', 'LofiEnv']
-2013-05-29 10:35:05,721 DEBUG virtualenvwrapper.hook_loader Saving sourcable pre_activate hooks to /tmp/virtualenvwrapper-pre_activate-hook-TOoYFOV6kY
-2013-05-29 10:35:05,848 DEBUG virtualenvwrapper.hook_loader Running post_activate hooks
-2013-05-29 10:35:05,855 DEBUG virtualenvwrapper.hook_loader Saving sourcable post_activate hooks to /tmp/virtualenvwrapper-post_activate-hook-pYBf4Mz0or
-2013-05-29 10:35:05,855 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:post_activate_source')
-2013-05-29 10:35:05,858 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:post_activate_source')
-2013-05-29 10:35:05,859 DEBUG virtualenvwrapper.user_scripts post_activate
+2013-05-29 10:44:56,697 DEBUG virtualenvwrapper.hook_loader Saving sourcable initialize hooks to /tmp/virtualenvwrapper-initialize-hook-WZWjnZjBBA
+2013-05-29 10:44:56,698 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:initialize_source')
+2013-05-29 10:44:56,822 DEBUG virtualenvwrapper.hook_loader Running pre_activate hooks
+2013-05-29 10:44:56,829 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:pre_activate')
+2013-05-29 10:44:56,832 DEBUG virtualenvwrapper.user_scripts pre_activate
+2013-05-29 10:44:56,832 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/preactivate', 'LofiEnv']
+2013-05-29 10:44:56,835 DEBUG virtualenvwrapper.user_scripts running ['/home/skyahead/Lofi/Envs/LofiEnv/bin/preactivate', 'LofiEnv']
+2013-05-29 10:44:56,838 DEBUG virtualenvwrapper.hook_loader Saving sourcable pre_activate hooks to /tmp/virtualenvwrapper-pre_activate-hook-Tzmb7F2084
+2013-05-29 10:44:56,945 DEBUG virtualenvwrapper.hook_loader Running post_activate hooks
+2013-05-29 10:44:56,950 DEBUG virtualenvwrapper.hook_loader Saving sourcable post_activate hooks to /tmp/virtualenvwrapper-post_activate-hook-FZtrcDNiiY
+2013-05-29 10:44:56,950 DEBUG stevedore.extension found extension EntryPoint.parse('user_scripts = virtualenvwrapper.user_scripts:post_activate_source')
+2013-05-29 10:44:56,953 DEBUG stevedore.extension found extension EntryPoint.parse('project = virtualenvwrapper.project:post_activate_source')
+2013-05-29 10:44:56,953 DEBUG virtualenvwrapper.user_scripts post_activate

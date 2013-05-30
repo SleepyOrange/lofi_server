@@ -27,7 +27,7 @@ WORKING_PKT_TYPE = '1'
 # GLOBAL VARIABLES
 num_of_pkts = [0, 0]  # num of pkts got so far
 dbm_sum = [0.0, 0.0]
-w = 0.1  # exponential smoothing weight, i.e., dbm_sum = dbm_sum * (1-w) + curr_dbm * w
+w = 0.2  # exponential smoothing weight, i.e., dbm_sum = dbm_sum * (1-w) + curr_dbm * w
 last_seen = [datetime.now(), datetime.now()]  # last time a pkt is seen by the server
 
 
@@ -86,9 +86,11 @@ def match_location(db):
     roomID_1 = roomIDs[distArray.index(nlesser_items[0])]
     roomID_2 = roomIDs[distArray.index(nlesser_items[1])]
 
-    return str(roomID_1) + ' ' + str(roomID_2)
+    if roomID_1 > roomID_2:
 
-    # return str(roomIDs[distArray.index(min(distArray))])
+        roomID_1, roomID_2 = roomID_2, roomID_1
+
+    return str(roomID_1) + ' ' + str(roomID_2)
 
 
 def read_rss(db):
@@ -237,7 +239,7 @@ def lofi(udp_sock_for_phone, phone_address, db):
                                     TRAINING_START_FLAG = False
 
                                     # save into database, i.e., update if existed, otherwise insert
-                                    db.metrics.update({'roomid':room_id_str}, {'$set': {'meanRss':dbm_sum}}, upsert=True)
+                                    # db.metrics.update({'roomid':room_id_str}, {'$set': {'meanRss':dbm_sum}}, upsert=True)
 
                                     return_msg = form_return_msg(room_id_str, str(dbm_sum))
 
@@ -279,7 +281,6 @@ def main():
     udp_sock_for_phone, phone_address = create_udp_client(MY_PHONE_IP)
     while True:
         measure_start_time = datetime.now()
-        # reset_last_seen()
         lofi(udp_sock_for_phone, phone_address, db)
         # print db.metrics.count()
         sleep(1)
